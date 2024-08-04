@@ -212,7 +212,7 @@ After cleaning, it's often a good idea to reset the DataFrame's index.
 df.reset_index(drop=True, inplace=True)
 ```
 
-<h3>Normalization of data</h3>
+<h3>2. Normalization of data</h3>
 <p>Normalization is a key data preprocessing technique used to transform features into a similar scale or range. This process ensures that the features have a consistent scale, making it easier to train machine learning models, especially those sensitive to the scale of input features, like gradient descent-based algorithms (e.g., linear regression, neural networks).<br>
 
 Normalization can also help improve the convergence speed of optimization algorithms and the interpretability of models. It’s crucial when different features have varying units or scales, such as when mixing height (in centimeters) and weight (in kilograms).<br>
@@ -317,7 +317,7 @@ There are two types of normalization:<br>
 <h4>. L1 Normalization:</h4> Scales each data point so that the sum of absolute values equals 1.
 <h4>. L2 Normalization:</h4> Scales each data point so that the sum of squares equals 1 (unit norm).
 
-<h3>Dummy Variables</h3>
+<h3>3. Dummy Variables</h3>
 <p>
 Dummy variables are a technique used in statistical modeling and machine learning to include categorical data into regression models or other algorithms that require numerical input. They are particularly useful when you have categorical features with no intrinsic ordering or numerical meaning, and you need to convert these categories into a format that can be used in calculations.<br>
 
